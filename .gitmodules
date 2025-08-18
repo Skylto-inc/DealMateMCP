@@ -1,0 +1,51 @@
+[submodule "context-index/dealmate-deployment"]
+	path = context-index/dealmate-deployment
+	url = https://github.com/Skylto-inc/dealmate-deployment.git
+[submodule "context-index/dealmate-auth-api"]
+	path = context-index/dealmate-auth-api
+	url = https://github.com/Skylto-inc/dealmate-auth-api.git
+[submodule "context-index/dealmate-web-ui"]
+	path = context-index/dealmate-web-ui
+	url = https://github.com/Skylto-inc/dealmate-web-ui.git
+[submodule "context-index/dealmate-recommendations"]
+	path = context-index/dealmate-recommendations
+	url = https://github.com/Skylto-inc/dealmate-recommendations.git
+[submodule "context-index/dealmate-insights"]
+	path = context-index/dealmate-insights
+	url = https://github.com/Skylto-inc/dealmate-insights.git
+[submodule "context-index/dealmate-lootpacks"]
+	path = context-index/dealmate-lootpacks
+	url = https://github.com/Skylto-inc/dealmate-lootpacks.git
+[submodule "context-index/dealmate-marketplace"]
+	path = context-index/dealmate-marketplace
+	url = https://github.com/Skylto-inc/dealmate-marketplace.git
+[submodule "context-index/dealmate-fraud-detection"]
+	path = context-index/dealmate-fraud-detection
+	url = https://github.com/Skylto-inc/dealmate-fraud-detection.git
+[submodule "context-index/dealmate-dealbot"]
+	path = context-index/dealmate-dealbot
+	url = https://github.com/Skylto-inc/dealmate-dealbot.git
+[submodule "context-index/dealmate-catalog-service"]
+	path = context-index/dealmate-catalog-service
+	url = https://github.com/Skylto-inc/dealmate-catalog-service.git
+[submodule "context-index/dealmate-alerts"]
+	path = context-index/dealmate-alerts
+	url = https://github.com/Skylto-inc/dealmate-alerts.git
+[submodule "context-index/dealmate-comparison-engine"]
+	path = context-index/dealmate-comparison-engine
+	url = https://github.com/Skylto-inc/dealmate-comparison-engine.git
+[submodule "context-index/dealmate-ai-engine"]
+	path = context-index/dealmate-ai-engine
+	url = https://github.com/Skylto-inc/dealmate-ai-engine.git
+[submodule "context-index/dealmate-extension"]
+	path = context-index/dealmate-extension
+	url = https://github.com/Skylto-inc/dealmate-extension.git
+[submodule "context-index/dealmate-product-detection"]
+	path = context-index/dealmate-product-detection
+	url = https://github.com/Skylto-inc/dealmate-product-detection.git
+[submodule "context-index/dealmate-scraping-engine"]
+	path = context-index/dealmate-scraping-engine
+	url = https://github.com/Skylto-inc/dealmate-scraping-engine.git
+[submodule "context-index/dealmate-gateway"]
+	path = context-index/dealmate-gateway
+	url = https://github.com/Skylto-inc/dealmate-gateway.git
