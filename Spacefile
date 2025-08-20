@@ -1,0 +1,8 @@
+v: 0
+micros:
+  - name: dealmate-mcp
+    src: .
+    engine: python3.9
+    primary: true
+    run: python main.py
+    dev: python main.py
