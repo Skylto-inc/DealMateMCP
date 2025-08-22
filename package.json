@@ -5,7 +5,10 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "start": "node mcp-server.js"
+    "start": "node start-server.js",
+    "start:node": "node mcp-server.js",
+    "start:python": "python main.py",
+    "start:auto": "node start-server.js"
   },
   "dependencies": {}
 }

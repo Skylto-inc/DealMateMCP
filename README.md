@@ -22,20 +22,50 @@ This MCP server indexes and serves source code, configuration files, and documen
 
 ## Quick Start
 
-1. **Start the server:**
+1. **Start the server (auto-detect runtime):**
    ```bash
+   # Using npm (if Node.js available)
    npm start
+   
+   # Or directly with launchers
+   node start-server.js     # Node.js launcher
+   python start-server.py   # Python launcher
+   ./start-server.sh        # Unix/Linux
+   start-server.bat         # Windows
    ```
 
-2. **Configure your AI client** to use:
+2. **Start with specific runtime:**
+   ```bash
+   # Force Node.js
+   MCP_RUNTIME=node npm start
+   
+   # Force Python
+   MCP_RUNTIME=python npm start
+   
+   # Or use direct commands
+   npm run start:node
+   npm run start:python
+   ```
+
+3. **Configure your AI client** to use:
    - **Transport**: STDIO
-   - **Command**: `node mcp-server.js`
+   - **Command**: `node start-server.js` (or `python start-server.py`)
    - **Working Directory**: This repository root
 
 ## Configuration
 
 Environment variables in `.env`:
 - `MCP_CONTEXT_PATH` - Path to microservices (default: `./context-index`)
+- `MCP_RUNTIME` - Server runtime preference (`auto`, `node`, `python`)
+
+### Runtime Selection
+
+The server automatically detects available runtimes:
+- **auto** (default): Prefers Node.js, falls back to Python
+- **node**: Forces Node.js runtime (requires Node.js installed)
+- **python**: Forces Python runtime (requires Python 3.x installed)
+
+Both implementations provide identical MCP functionality.
 
 ## Architecture
 
