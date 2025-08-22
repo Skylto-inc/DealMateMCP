@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/mcp-server.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "api/mcp-server.js" }
+  ],
+  "env": {
+    "MCP_CONTEXT_PATH": "./context-index"
+  }
+}
